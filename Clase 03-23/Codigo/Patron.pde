@@ -25,6 +25,25 @@ class Patron{
     }
   }
   
+  void Rotacion (float theta){
+    for (int k=0;k<3;k++){
+      t[k].Rotar(theta);
+    }
+  }
+  
+  
+  void Escalar(float s){
+    for(int k=0; k<3;k++){
+      t[k].Escalar(s);
+    }
+  }
+  
+  void Simetria (float alphax, float alphay){
+    for(int k=0; k<3;k++){
+      t[k].Simetria(alphax, alphay);
+    }
+  }
+  
   
   
   

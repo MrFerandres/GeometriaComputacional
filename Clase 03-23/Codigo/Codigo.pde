@@ -23,7 +23,17 @@ void draw(){
   stroke(0);
   patron.Dibujar();
   
-  patron.Trasladar(new PVector(-50,-50));
+  patron.Trasladar(new PVector(-100,-100));
+  patron.Dibujar();
+  
+  patron.Rotacion(135);
+  patron.Dibujar();
+  
+  patron.Escalar(1.2);
   patron.Dibujar();
 
+  patron.Simetria(-1,1);
+  patron.Dibujar();
+    
+    
 }
